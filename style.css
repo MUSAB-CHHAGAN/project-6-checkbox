@@ -37,10 +37,10 @@ input:checked[type="checkbox"]{
     background: rgb(11, 108, 199);
    
 }
-@keyframes simple {
+/* @keyframes simple {
     0%{transform: rotate(0deg);}
     100%{transform: rotate(180deg);}
-}
+} */
 input[type="checkbox"]:before{
     content: "";
     position: absolute;
@@ -48,7 +48,7 @@ input[type="checkbox"]:before{
     height: 50px;
     top: 0%;
     left: 0%;
-    animation: simple 0.2s linear ;
+    /* animation: simple 0.2s linear ; */
     animation-iteration-count:1 ;
     border-radius: 40px;
     background: linear-gradient(black,rgb(83, 76, 76));
